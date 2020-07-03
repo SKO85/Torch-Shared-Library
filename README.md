@@ -1,7 +1,6 @@
 # Torch-Shared-Library
-A Collaborative Shared Library for Torch Plugins
+A collaborative Shared Library Project for Torch Plugins
 
 # Setup
-- Using the Project requires a Symlink for ..\TorchBinaries and ..\GameBinaries to load the referenced game dll files.
-- Edit the SetupSymLinks.bat file and enter the required paths
-- Call the SetupSymLinks.bat or setup SymLinks manually.
+- Simply add it to your VS Solution as an Existing Project.
+- Reference it to your Plugin Project

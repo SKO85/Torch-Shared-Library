@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>0a4fe323-3fc5-4f0f-bfca-f11022760eb3</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Torch.SharedLibrary</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Constants.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utils\BlockUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utils\ChatUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utils\ConfigUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utils\CreditsUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utils\FactionUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utils\GridUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utils\IdentityUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utils\NetworkUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utils\NotificationUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utils\PlayerUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utils\SoundUtils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)README.md" />
+  </ItemGroup>
+</Project>
