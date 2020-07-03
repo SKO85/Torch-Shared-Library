@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Torch.SharedLibrary
+﻿namespace Torch.SharedLibrary
 {
     public class Constants
     {
